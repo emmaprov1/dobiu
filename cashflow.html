@@ -90,7 +90,7 @@
         <section class="section account-body py-5 mt-5">
             <div class="container pt-5 bg-white pb-4">
                 <div class="pb-4">
-                    <h2 class="pb-4 page-header">Cashflow tracker</h2>
+                    <h2 class="pb-4 page-header">Finance Manager</h2>
                     <div class="row"> 
                         <div class="col-6 col-md-2">
                             <select class="form-control rounded-0 mt-1">
@@ -101,7 +101,7 @@
                         </div>
                         <div class="col-6 col-md-2"> 
                             <select class="form-control rounded-0 mt-1">
-                                <option>Filter date</option>
+                                <option>Filter month</option>
                                 <option>January</option>
                                 <option>February</option>
                                 <option>March</option>
@@ -117,7 +117,67 @@
                         </div>
                     </div>
                 </div>
-                <div class="table-responsive">
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 ">
+            <div class=" text-left my-3">
+            <div class="card card-o card-o-left rounded w-50 shadow-sm">
+                <div class="card-body">
+                    <span class="text-light font-weight-bolder cash-type-left"> 
+                        OUTFLOW 
+                        <i class="fa fa-arrow-down font-weight-bolder fa-1x"></i>
+                    </span>
+                    <p>Balance as at this date</p>
+                    <p>&#8358;637,000</p> 
+                    <small>10 Dec, 2020 8:00am</small>
+                </div> 
+            </div>
+        </div>
+        </div> 
+        <div class="col-12">
+            <div class=" float-right w-50 my-3">
+                <div class="card card-o card-o-right rounded text-right shadow-sm">
+                    <div class="card-body text-light">
+                        <span class="text-secondary font-weight-bolder cash-type-right bg-white"> 
+                            INFLOW 
+                            <i class="fa fa-arrow-up font-weight-bolder fa-1x"></i>
+                        </span>
+                        <p class="text-light">Balance as at this date</p>
+                        <p class="text-light">&#8358;637,000</p> 
+                        <small class="text-light">10 Dec, 2020 8:00am</small>
+                    </div> 
+                </div>
+            </div>
+        </div> 
+        <div class="col-12">
+            <div class=" text-left w-50  my-3">
+            <div class="card card-o card-o-left rounded  shadow-sm">
+                <div class="card-body">
+                    <span class="text-light font-weight-bolder cash-type-left"> 
+                        OUTFLOW 
+                        <i class="fa fa-arrow-down font-weight-bolder fa-1x"></i>
+                    </span>
+                    <p>Balance as at this date</p>
+                    <p>&#8358;637,000</p> 
+                    <small>10 Dec, 2020 8:00am</small>
+                </div> 
+            </div>
+          </div>
+        </div> 
+    </div>
+</div>
+
+
+
+
+
+
+
+
+                <div class="table-responsive d-none">
                        <table class="table table-account">
                             <thead>
                                 <tr>
@@ -199,7 +259,7 @@
                         </table>
                     </div>
                </div>
-                <div class="col-md-3 py-4 text-right">
+                <div class="col-md-3 py-4 text-right d-none">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination">
                             <li class="page-item">
