@@ -3125,7 +3125,11 @@ font-size: .9375rem;
       }
    }
    @media(max-width:807px){
-     .w-550{
-        width:98%;
-     }
+    .w-550{
+      width:98%;
+   }
+   
+   .t-550{
+    width:80%;
+ }
   }
