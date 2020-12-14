@@ -3098,7 +3098,7 @@ font-size: .9375rem;
       height:80px; 
       width:80px;
       padding:20px 5px;
-      box-shadow: 1px 1px 1px 2px rgb(29, 42, 84);
+      /* box-shadow: 1px 1px 1px 2px rgb(29, 42, 84); */
       text-align: center;
     }
     
@@ -3114,6 +3114,18 @@ font-size: .9375rem;
       font-size: .9rem;
       width:83px;
       padding:20px 5px;
-      background-color: rgb(29, 42, 84);
+      border: 4px solid rgba(29, 42, 84, 0.59);
+      /* background-color: rgb(29, 42, 84); */
       text-align: center;
     }
+
+    @media(min-width:807px){
+      .w-550{
+         width:50%;
+      }
+   }
+   @media(max-width:807px){
+     .w-550{
+        width:90%;
+     }
+  }
